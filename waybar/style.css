@@ -1,0 +1,131 @@
+
+* {
+
+  transition: none;
+  box-shadow: none;
+  /*font-family: JetBrainsMono Nerd Font;
+  font-size: 12px;*/
+   /* font-family: SourceCodePro Medium;
+   font-weight:bold; Mononoki*/
+    /*   font-family: firacode Nerd Font; */
+ font-family: CommitMono;
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 15px;
+    font-weight:bold;
+      min-height: 0;
+
+}
+
+
+
+#waybar {
+  margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+background-color: alpha(#2e3440, 0.99);
+border-radius: 15px;
+/*border-bottom: 2px solid #c0c0c0; alpha(#2e3440, 0.99);*/ 
+    /*color: #a4a4a4;#c0c0c0 #dbdbdb alpha(#cbccd2, 0.99);
+    background-color: #2e3440;202121 22373f 2e3440*/
+   /* border-bottom: .5px solid #ffffff; 242423 */
+
+  /*border-radius: 12px;*/
+   border: .5px solid #c4c8c5;
+   /*border-top: .5px solid #c4c8c5;*/
+      /*color: white;*/
+         /* border-top: 1px solid #31748f;*/
+         /* border-bottom: 3px solid #404040;*/
+
+}
+
+#workspaces {
+  margin: 0 0px;
+}
+
+button:hover {
+  box-shadow: none; /* Remove predefined box-shadow */
+  text-shadow: none; /* Remove predefined text-shadow */
+  background: none; /* Remove predefined background color (white) */
+  transition: none; /* Disable predefined animations */
+}
+
+#workspaces button {
+  margin: 0px 0px;
+  padding: 0px 6px;
+  color: #c4c8c5;
+  border-radius: 20px;
+}
+
+#workspaces button.visible {
+}
+
+#workspaces button.focused {
+  border-radius: 40px;
+  color: #bc4b4f;
+
+  /*background: #4c566a;*/
+    /*background: transparent;
+    border-bottom: 1px solid rgba(53, 185, 171, 0.4); 
+    border-top: 1px solid rgba(53, 185, 171, 0.4);
+    border-left: 1px solid rgba(53, 185, 171, 0.4);
+    border-right: 1px solid rgba(53, 185, 171, 0.4);*/
+
+    /*border-top: 1.5px solid #c0c0c0;
+        border-bottom: 1.5px solid #c0c0c0;
+    border-left: 1.5px solid #c0c0c0;
+    border-right: 1.5px solid #c0c0c0;*/
+}
+
+
+
+#workspaces button.urgent {
+  border-radius: 40px;
+  color: #A30000;
+      border-bottom: 1.5px solid #A30000;
+    border-top: 1.5px solid #A30000;
+    border-left: 1.5px solid #A30000;
+    border-right: 1.5px solid #A30000;
+}
+
+#tray {
+  margin: 0px 0px;
+}
+
+#tray * {
+  padding: 0 1px;
+  border-left: 0px solid black;
+}
+
+#tray *:first-child {
+  border-left: none;
+/*-gtk-icon-shadow: 0px 0px 1px #ffffff; */
+}
+
+#mode, #battery,  #bluetooth, #cpu, #disk, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #mpd, #clock, #temperature, #window {
+  margin: 0px 0px;
+  padding: 0 10px;
+  min-width: 0px;
+  color: #c4c8c5;
+}
+
+#clock {
+  margin: 0px 0px;
+}
+
+.timer {
+    color: #c4c8c5;
+    margin: 0 0px;
+    padding: 0 0px;
+}
+
+#language{
+color:#c0c0c0;
+margin: 0px 5px
+
+}
+
+
+

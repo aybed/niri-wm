@@ -1,0 +1,159 @@
+[
+{
+    "layer": "top",
+    "position": "top",
+    "height": 25,
+        "width": 1400,
+        "margin": "4, 0, 0, 0",
+    //"margin": "0, 450, 0, 450",
+    //"margin": "1.5, 3, 3, 3",
+    "modules-left": ["niri/window" ],
+    "modules-center": ["custom/timer","niri/workspaces","clock"],
+    "modules-right":["idle_inhibitor","tray","bluetooth","pulseaudio","backlight","battery"],
+
+    "niri/window": {
+        "max-length": 40,
+        "tooltip": false
+    },
+
+    "clock": {
+        "interval": 1,
+        "locale": "C", 
+        "format-alt": "{:%d.%m.%Y}",
+        "format": "{:%I:%M}",
+        "tooltip": false
+    },
+
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 15,
+            "critical": 10
+        },
+        "format": "{icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "" ⚡︎,
+        "format-icons": [" ", " ", " ", " ", " "],
+        "format-alt": "{icon}{capacity}%",
+        "tooltip-format": "{capacity}% - {time}",
+    },
+
+    "network": {
+    	"interval": 1,
+        "format-wifi": "󰒢",
+        "format-ethernet": "󰈀  {ifname} ({ipaddr})",
+        "format-linked": " {essid} (No IP)",
+        "format-disconnected": "󰒢",
+        "format-alt": "󰒢 {essid}",
+        //"tooltip": false,
+	 "tooltip-format-wifi": "signal strength: {signalStrength}% | down speed: {bandwidthdownbits}, up speed: {bandwidthupbits}",
+       "on-click-right": "exec nm-connection-editor"
+                },
+
+    "pulseaudio": {
+      // "scroll-step": 1, // %, can be a float
+      "format": "{icon}",
+      "format-alt": "{icon} {volume}%",
+      "format-bluetooth": "{icon}",
+      "format-bluetooth-muted": "",
+      "format-muted": "",
+      //"format-source": " {volume}%",
+      //"format-source-muted": "",
+      "format-icons": {
+        "headphone": " ",
+        "hands-free": "",
+        "headset": " ",
+        //"headset": "🎧",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", " "]
+      },
+      "on-scroll-up": "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%",
+      "on-scroll-down": "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -1%",
+      "tooltip-format":"{volume}%"
+    },
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon}",
+        "format-icons": ["", ""],
+        "on-scroll-down": "brightnessctl -c backlight set 10%-",
+        "on-scroll-up": "brightnessctl -c backlight set +10%",
+        "format-alt": "{icon}  {percent}%",
+        "tooltip": false
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon} ",
+        "format-icons":{
+          "activated": "\uf204",
+            "deactivated": "\uf205"
+        }
+    },
+
+    "tray": {
+        "icon-size": 15,
+            "spacing": 12
+    },
+
+"custom/timer": {
+    "exec": "/home/aybars/.config/waybar/waybar-timer.sh updateandprint",
+    "exec-on-event": true,
+    "return-type": "json",
+    "interval": 5,
+    "signal": 4,
+    "format": "{icon}{0} min ",
+    "format-icons": {
+        "standby": "",
+        "running": "",
+        "paused": ""
+    },
+
+    "on-click": "/home/aybars/.config/waybar/waybar-timer.sh new 60 'notify-send \"Session finished\"'",
+    "on-click-right": "/home/aybars/.config/waybar/waybar-timer.sh cancel",
+    "on-click-middle": "/home/aybars/.config/waybar/waybar-timer.sh togglepause",
+    "on-scroll-up": "/home/aybars/.config/waybar/waybar-timer.sh increase 300 || /home/aybars/.config/waybar/waybar-timer.sh new 1 'notify-send -u critical \"Timer expired.\"'",
+    "on-scroll-down": "/home/aybars/.config/waybar/waybar-timer.sh increase -60"
+},
+
+"bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"format": "!",
+	"format-disabled": "!", // an empty format will hide the module
+	"format-connected": "",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	"on-click-right":"exec blueman-manager"
+},
+
+"niri/language": {
+    "format":  "Lang: {long}",
+    "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+    "tooltip": false,
+    	"format-us": "AMERICA, HELL YEAH!",
+	"format-tr": "As bayrakları"
+},
+
+"wlr/taskbar": {
+    "tooltip-format": "{title} | {app_id}",
+},
+
+"keyboard-state": {
+    "capslock": true,
+    "format": "{name} {icon}",
+    "format-icons": {
+        "locked": " ",
+        "unlocked": " "
+    }
+},
+
+
+},
+
+
+
+
+
+    ]
