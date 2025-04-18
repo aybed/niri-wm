@@ -1,0 +1,10 @@
+{
+	"bookmarks" : "/home/aybars/.config/radiotray-ng/bookmarks.json",
+	"last-station" : "Best of Beethoven",
+	"last-station-group" : "Classical",
+	"last-station-notifications" : true,
+	"notification-verbose" : true,
+	"notifications" : true,
+	"split-title" : true,
+	"volume-level" : 4
+}

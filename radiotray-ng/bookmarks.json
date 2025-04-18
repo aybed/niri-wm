@@ -1,0 +1,297 @@
+[
+	{
+		"group" : "TV / News",
+		"stations" : 
+		[
+			{
+				"name" : "Habert\u00fcrk Radyo",
+				"url" : "https://haberturkradyo.radyotvonline.net/haberturkradyo"
+			},
+			{
+				"name" : "NTV Radyo",
+				"url" : "http://46.20.3.207/listen.pls"
+			},
+			{
+				"name" : "A HABER",
+				"url" : "a HABEhttps://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8R"
+			},
+			{
+				"name" : "TRT Radyo Haber",
+				"url" : "https://radio-trtradyohaber.live.trt.com.tr/master.m3u8"
+			},
+			{
+				"name" : "TRT Radyo 1",
+				"url" : "https://nmicenotrt.mediatriple.net/trt_1.aac"
+			},
+			{
+				"name" : "BloombergHT",
+				"url" : "https://ciner-live.ercdn.net/bloombergradyo/bloombergradyo_1.m3u8"
+			},
+			{
+				"name" : "BBC World Service",
+				"url" : "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8"
+			},
+			{
+				"name" : "BBC - Radio 1",
+				"url" : "http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8"
+			},
+			{
+				"name" : "WNYC",
+				"url" : "https://fm939.wnyc.org/wnycfm"
+			},
+			{
+				"name" : "FOX News",
+				"url" : "https://live.amperwave.net/direct/foxnewsradio-foxnewsradioaac-imc?source=fnr.web"
+			},
+			{
+				"name" : "NBC News",
+				"url" : "http://stream.revma.ihrhls.com/zc6043"
+			}
+		]
+	},
+	{
+		"group" : "Classical",
+		"stations" : 
+		[
+			{
+				"name" : "Klassik Radio Beethoven",
+				"url" : "http://stream.klassikradio.de/beethoven/mp3-128/"
+			},
+			{
+				"name" : "Klassik Radio Piano",
+				"notifications" : false,
+				"url" : "https://stream.klassikradio.de/piano/mp3-192/"
+			},
+			{
+				"name" : "Klassik Radio Mozzart",
+				"url" : "https://stream.klassikradio.de/mozart/mp3-192/"
+			},
+			{
+				"name" : "Klassik Radio Bach",
+				"url" : "https://stream.klassikradio.de/purebach/mp3-192/"
+			},
+			{
+				"name" : "Klassik Radio Barock",
+				"url" : "https://stream.klassikradio.de/barock/mp3-192/"
+			},
+			{
+				"name" : "Klassik Radio Klassik am Morgen",
+				"url" : "https://stream.klassikradio.de/klassikammorgen/mp3-192/"
+			},
+			{
+				"name" : "Swiss Classic",
+				"url" : "http://stream.srg-ssr.ch/m/rsc_de/mp3_128"
+			},
+			{
+				"name" : "TRT Radyo 3",
+				"url" : "https://nmicenotrt.mediatriple.net/trt_3.aac"
+			},
+			{
+				"name" : "KDFC",
+				"url" : "http://provisioning.streamtheworld.com/pls/KDFCFM.pls"
+			},
+			{
+				"name" : "Classic FM",
+				"url" : "http://media-ice.musicradio.com/ClassicFMMP3.m3u"
+			},
+			{
+				"name" : "WCPE",
+				"url" : "http://www.ibiblio.org/wcpe/wcpe.pls"
+			},
+			{
+				"name" : "CINEMIX",
+				"url" : "http://cinemix.us/cine.asx"
+			},
+			{
+				"name" : "WQXR",
+				"url" : "http://www.wqxr.org/stream/wqxr/mp3.pls"
+			},
+			{
+				"name" : "Best of Beethoven",
+				"url" : "https://klassikr.streamabc.net/klr-purebeethoven-aacplus-64-4841198?sABC=65q350op%230%234rsn75o60no3nr3605pn4o3410q0o941%23zlghare&aw_0_1st.playerid=mytuner&amsparams=playerid:mytuner;skey:1708347580"
+			}
+		]
+	},
+	{
+		"group" : "Jazz",
+		"stations" : 
+		[
+			{
+				"name" : "Smooth Jazz",
+				"url" : "http://smoothjazz.com/streams/smoothjazz_128.pls"
+			},
+			{
+				"name" : "Sonic Universe",
+				"url" : "http://somafm.com/sonicuniverse.pls"
+			}
+		]
+	},
+	{
+		"group" : "Latin",
+		"stations" : 
+		[
+			{
+				"name" : "Top Latino Radio",
+				"url" : "http://online.radiodifusion.net:8020/listen.pls"
+			},
+			{
+				"name" : "Reggaeton 24/7",
+				"url" : "http://cc.net2streams.com/tunein.php/reggaeton/playlist.pls"
+			}
+		]
+	},
+	{
+		"group" : "Classic Rock",
+		"stations" : 
+		[
+			{
+				"name" : "181.FM Classic Hits",
+				"url" : "http://www.181.fm/winamp.pls?station=181-greatoldies&file=181-greatoldies.pls"
+			},
+			{
+				"name" : ".977 Classic Rock",
+				"url" : "http://www.977music.com/tunein/web/classicrock.asx"
+			},
+			{
+				"name" : "Covers",
+				"url" : "http://somafm.com/covers.pls"
+			}
+		]
+	},
+	{
+		"group" : "Pop / Rock",
+		"stations" : 
+		[
+			{
+				"name" : "Radio Paradise",
+				"url" : "http://www.radioparadise.com/musiclinks/rp_128.m3u"
+			},
+			{
+				"name" : ".977 The Hitz Channel",
+				"url" : "http://www.977music.com/tunein/web/hitz.asx"
+			},
+			{
+				"name" : "Indie Pop Rocks!",
+				"url" : "http://somafm.com/indiepop.pls"
+			},
+			{
+				"name" : "PopTron",
+				"url" : "http://somafm.com/poptron.pls"
+			}
+		]
+	},
+	{
+		"group" : "Oldies",
+		"stations" : 
+		[
+			{
+				"name" : "ABN Antioch OTR",
+				"url" : "http://radio.macinmind.com/listen.m3u"
+			},
+			{
+				"name" : "AM600 Conyers OTR",
+				"url" : "http://www.conyersradio.net/listen.m3u"
+			},
+			{
+				"name" : "Rumsey Retro Radio",
+				"url" : "https://www.rumseyretro.ca/ewExternalFiles/rumseyretro.pls"
+			},
+			{
+				"name" : "WNAR-AM Radio",
+				"url" : "http://live.wnar-am.com:8500/listen.pls"
+			}
+		]
+	},
+	{
+		"group" : "Chill",
+		"stations" : 
+		[
+			{
+				"name" : "Lounge Radio",
+				"url" : "http://www.lounge-radio.com/listen128.m3u"
+			},
+			{
+				"name" : "Beat Blender",
+				"url" : "http://somafm.com/beatblender.pls"
+			},
+			{
+				"name" : "Secret Agent",
+				"url" : "http://somafm.com/secretagent.pls"
+			},
+			{
+				"name" : "Groove Salad",
+				"url" : "http://somafm.com/groovesalad.pls"
+			},
+			{
+				"name" : "Illinois Street Lounge",
+				"url" : "http://somafm.com/illstreet.pls"
+			}
+		]
+	},
+	{
+		"group" : "Country",
+		"stations" : 
+		[
+			{
+				"name" : "Boot Liquor",
+				"url" : "http://somafm.com/bootliquor.pls"
+			},
+			{
+				"name" : "Highway 181",
+				"url" : "http://www.181.fm/winamp.pls?station=181-highway&file=181-highway.pls"
+			},
+			{
+				"name" : "Country 108",
+				"url" : "http://www.country108.com/listen.pls"
+			},
+			{
+				"name" : "WAMU Bluegrass Country",
+				"url" : "http://ice24.securenetsystems.net/WAMU2"
+			}
+		]
+	},
+	{
+		"group" : "Techno / Electronic",
+		"stations" : 
+		[
+			{
+				"name" : "Drone Zone",
+				"url" : "http://somafm.com/dronezone.pls"
+			},
+			{
+				"name" : "Space Station Soma",
+				"url" : "http://somafm.com/spacestation.pls"
+			},
+			{
+				"name" : "cliqhop idm",
+				"url" : "http://somafm.com/cliqhop.pls"
+			},
+			{
+				"name" : "Black Rock FM",
+				"url" : "http://somafm.com/brfm.pls"
+			},
+			{
+				"name" : "New Dance Radio",
+				"url" : "http://jbstream.net/tunein.php/blackoutworm/playlist.asx"
+			},
+			{
+				"name" : "DubStep Beyond",
+				"url" : "http://somafm.com/play/dubstep32"
+			}
+		]
+	},
+	{
+		"group" : "Community",
+		"stations" : 
+		[
+			{
+				"name" : "Jupiter Broadcasting",
+				"url" : "http://jblive.stream/"
+			}
+		]
+	},
+	{
+		"group" : "root",
+		"stations" : []
+	}
+]
